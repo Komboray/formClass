@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="center">
+<table>
+    <form action="" method="post">
+	<tr><td><h1 style="color:red;">Enter your details below</h1></tr></td>
+    <tr><td><label for="name">Name</label>
+    <input type="text" name = "name" placeholder="Enter your name" required>
+
+    <tr><td><label for="address">Address</label>
+    <input type="text" name = "address" placeholder="Enter physical address"></tr></td>
+	<tr><td><label> Email</label>
+    <input type="email" name = "email"placeholder="Enter email i.e joe@gmail.com"></tr></td>
+
+    <tr><td><label>How did you hear about this site?</label>
+        <input type="checkbox" name = "howdid" value="engine"></tr></td>
+
+        <tr><td><label>Did you hear about this site online?</label>
+        </td></tr>
+
+        <tr><td style="display: block;"><label for="site">Yes</label><input type="radio" name = "site" value="yes" style="color: red;"><label for="site">No</label> <input type="radio" name = "site" value="no"></td></tr>
+            <tr><td><label>Let us know about your highest education level</label>
+                <br>
+                <br>
+                <select name="skills" id="">
+                    <option name="skills" value="primary school">primary school</option>
+                    <option name="skills" value="secondary school">secondary school</option>
+                    <option name="skills" value="university">university</option>
+                    <option name="skills" value="degree">degree</option>
+                    <option name="skills" value="masters">masters</option>
+                    <option name="skills" value="PHD">PHD</option>
+                </select></tr></td>
+
+                <tr><td><textarea name="comments" id="" cols="20" rows="10" class="select" placeholder="What do you think about the design of the site, please send feedback"></textarea></td></tr>
+
+    <tr><td><input type="submit" name="submitDetails" value="Send details to the database" style="background-color: red;"></tr></td>
+</form>
+
+</table>
+    </div>
+    
+</body>
+</html>
+
+
